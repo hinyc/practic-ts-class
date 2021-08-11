@@ -1,15 +1,14 @@
 "use strict";
 // constructor & initialize
 class Person2 {
-    constructor(age) {
-        this.name = "Hinyc";
-        if (age === undefined) {
-            this.age = 20;
-        }
-        else {
-            this.age = age;
-        }
+  constructor(age) {
+    this.name = "Hinyc";
+    if (age === undefined) {
+      this.age = 20;
+    } else {
+      this.age = age;
     }
+  }
 }
 //defalut 생성자, 인자없이실행되는 constructor 함수 의미.
 // const p2 = new Person("Hinyc");

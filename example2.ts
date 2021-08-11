@@ -21,4 +21,6 @@ const p21 = new Person2();
 const p22 = new Person2(31);
 
 console.log(p21);
+// => Person2 { name: 'Hinyc', age: 20}
 console.log(p22);
+// => Person2 { name: 'Hinyc', age: 31}
